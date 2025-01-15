@@ -1,0 +1,307 @@
+/* Pop-up container styling */
+.popup {
+    display: none; /* Hidden by default */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    justify-content: center;
+    align-items: center;
+}
+
+/* Pop-up content box */
+.popup-content {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Close button for pop-up */
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 30px;
+    cursor: pointer;
+    color: #003366; /* Dark blue color from logo */
+}
+
+/* Styling for welcome message and logo */
+.logo img {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #003366; /* Dark blue from logo */
+    margin-bottom: 15px;
+}
+
+p {
+    color: #333; /* Neutral dark color */
+    margin-bottom: 20px;
+}
+
+/* Enter site button */
+#enterButton {
+    padding: 10px 20px;
+    background-color: #003366; /* Dark blue from logo */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#enterButton:hover {
+    background-color: #002244; /* Darker shade on hover */
+}
+
+/* Overall body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: hwb(212 57% 12%); /* Light background to match the logo's feel */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container holding the login elements */
+.container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Styling for the logo */
+.logo img {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+/* Title styling */
+h2 {
+    margin-bottom: 20px;
+    color: #003366; /* Dark blue from logo */
+    font-weight: bold;
+}
+
+/* Input field styling */
+.input-group {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333; /* Neutral dark color for contrast */
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Login button styling */
+button {
+    background-color: #003366; /* Dark blue from logo */
+    color: white;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #002244; /* Slightly darker blue on hover */
+}
+
+/* Links for "Forgot Password" and "Sign Up" */
+p a {
+    color: #ffcc33; /* Mustard yellow from logo */
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+/* Error message styling */
+#error-message {
+    color: red;
+    margin-bottom: 10px;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: hwb(212 57% 12%); /* Light background matching the login page */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #003366; /* Dark blue from the login page */
+}
+
+header .logo h1 {
+    font-size: 2.5rem;
+    color: #ffcc33; /* Mustard yellow from the login page */
+}
+
+header .tagline {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.form-box {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #003366; /* Dark blue from the login page */
+}
+
+p {
+    color: #333; /* Neutral dark color */
+    margin-bottom: 30px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #003366; /* Dark blue from the login page */
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.signup-btn {
+    background-color: #003366; /* Dark blue from the login page */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.signup-btn:hover {
+    background-color: #002244; /* Darker shade of blue */
+}
+
+.login-link {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.login-link a {
+    color: #ffcc33; /* Mustard yellow from the login page */
+    text-decoration: none;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+}
+
+.social-signup {
+    margin-top: 20px;
+}
+
+.social-btn {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.google {
+    background-color: #db4437;
+    color: white;
+}
+
+.facebook {
+    background-color: #4267B2;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #003366; /* Dark blue from the login page */
+}
+
+footer p {
+    font-size: 0.8rem;
+    color: #666;
+}
+
+footer a {
+    color: #ffcc33; /* Mustard yellow from the login page */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
